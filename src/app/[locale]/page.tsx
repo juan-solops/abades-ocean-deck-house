@@ -4,6 +4,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { useState, useEffect } from 'react';
 import { translations } from '@/lib/translations';
+import { Analytics } from '@vercel/analytics/next';
 
 export default function LocalePage({ params }: { params: { locale: string } }) {
   const { locale } = params;
@@ -549,6 +550,8 @@ export default function LocalePage({ params }: { params: { locale: string } }) {
           </div>
         </div>
       </footer>
+      <Analytics />
     </div>
+    
   );
 }
