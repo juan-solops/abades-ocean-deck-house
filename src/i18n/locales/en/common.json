@@ -1,0 +1,27 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "The House",
+    "gallery": "Gallery",
+    "thingsToDo": "Things To Do",
+    "blog": "Blog",
+    "book": "Book Now",
+    "contact": "Contact"
+  },
+  "footer": {
+    "about": "About",
+    "quickLinks": "Quick Links",
+    "contact": "Contact",
+    "followUs": "Follow Us",
+    "copyright": "© 2026 Abades Ocean Deck House. All rights reserved.",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service"
+  },
+  "cta": {
+    "bookNow": "Book Now",
+    "learnMore": "Learn More",
+    "viewGallery": "View Gallery",
+    "readMore": "Read More",
+    "contactUs": "Contact Us"
+  }
+}

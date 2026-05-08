@@ -1,0 +1,31 @@
+{
+  "hero": {
+    "location": "Abades, Arico · South Tenerife · Canary Islands",
+    "title": "Abades Ocean Deck House",
+    "subtitle": "Your private coastal retreat with stunning ocean views, steps from crystal-clear waters perfect for snorkeling and diving in one of Tenerife's hidden gems.",
+    "checkAvailability": "Check Availability",
+    "exploreHouse": "Explore The House"
+  },
+  "highlights": {
+    "sunnyDays": "300+ Sunny Days",
+    "sunnyDaysDesc": "Year-round sunshine",
+    "beach": "Beach: 2 min walk",
+    "beachDesc": "Crystal clear waters",
+    "marineReserve": "Marine Reserve",
+    "marineReserveDesc": "Snorkeling & diving",
+    "teide": "Mt. Teide Nearby",
+    "teideDesc": "UNESCO World Heritage"
+  },
+  "about": {
+    "subtitle": "Welcome to your escape",
+    "title": "A Home Where the Ocean Meets Your Doorstep",
+    "description": "Abades Ocean Deck House is a beautifully designed holiday home nestled in the tranquil coastal village of Abades, in the municipality of Arico, South Tenerife. With its spacious ocean-view deck, modern amenities, and proximity to pristine beaches, it's the perfect base for exploring one of the Canary Islands' best-kept secrets.",
+    "bedrooms": "2 Bedrooms",
+    "bathroom": "1 Bathroom",
+    "wifi": "Fast WiFi",
+    "parking": "Free Parking",
+    "deck": "Ocean Deck",
+    "kitchen": "Full Kitchen",
+    "rating": "Guest Rating"
+  }
+}

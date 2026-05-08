@@ -1,0 +1,1016 @@
+export const translations = {
+  en: {
+    nav: { home: 'Home', about: 'The House', gallery: 'Gallery', things: 'Things To Do', blog: 'Travel Blog', contact: 'Contact', book: 'Book Now' },
+    hero: {
+      location: 'Abades, Arico · South Tenerife · Canary Islands',
+      subtitle: 'Your private coastal retreat with stunning vulcano views and ocean breeze, steps from crystal-clear waters perfect for snorkeling and diving in one of Tenerife\'s hidden gems.',
+      cta1: 'Check Availability',
+      cta2: 'Explore The House'
+    },
+    highlights: [
+      { icon: '☀️', title: '300+ Sunny Days', desc: 'Year-round sunshine' },
+      { icon: '🏖️', title: 'Beach: 2 min walk', desc: 'Crystal clear waters' },
+      { icon: '🐠', title: 'Marine Reserve', desc: 'Snorkeling & diving' },
+      { icon: '🏔️', title: 'Mt. Teide Nearby', desc: 'UNESCO World Heritage' }
+    ],
+    about: {
+      subtitle: 'Welcome to your escape',
+      title: 'A Home Where the Ocean Meets Your Doorstep',
+      description: 'Abades Ocean Deck House is a beautifully designed holiday home nestled in the tranquil coastal village of Abades, in the municipality of Arico, South Tenerife. With its spacious ocean-view deck, modern amenities, and proximity to pristine beaches, it\'s the perfect base for exploring one of the Canary Islands\' best-kept secrets.',
+      features: [
+        { icon: '🛏️', label: '2 Bedrooms' },
+        { icon: '🚿', label: '1 Bathroom' },
+        { icon: '📶', label: 'Fast WiFi' },
+        { icon: '🅿️', label: 'Free Parking' },
+        { icon: '🏖️', label: 'Ocean Deck' },
+        { icon: '🍳', label: 'Full Kitchen' }
+      ]
+    },
+    gallery: {
+      subtitle: 'Visual Tour',
+      title: 'Gallery',
+      description: 'Explore our stunning property and the beautiful surroundings of Abades'
+    },
+    thingsTitle: 'Things To Do in Abades & South Tenerife',
+    thingsSubtitle: 'Explore & Discover',
+    thingsDescription: 'From world-class snorkeling in marine protected areas to exploring mysterious abandoned ruins, Abades offers unforgettable experiences',
+    activities: [
+      {
+        badge: '#1 Activity',
+        badgeColor: 'bg-ocean-500',
+        title: 'Snorkeling & Diving',
+        description: 'Explore the crystal-clear waters of Abades marine protected area. See turtles, rays, and colorful fish just steps from the house.',
+        distance: '2 min walk from house',
+        image: 'https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=600&q=80'
+      },
+      {
+        badge: 'Historic',
+        badgeColor: 'bg-purple-500',
+        title: 'Sanatorio de Abona (Leper Colony Ruins)',
+        description: 'Explore the hauntingly beautiful abandoned leper sanatorium from the 1940s. A unique piece of Tenerife\'s history with stunning ocean views.',
+        distance: '10 min walk',
+        image: '/images/blog/sanatorio-leproseria-de-abades-tenerife-spain-7x05.jpg'
+      },
+      {
+        badge: 'Beach',
+        badgeColor: 'bg-sand-400 text-volcanic-900',
+        title: 'Playa de Abades',
+        description: 'A tranquil, family-friendly beach with calm, clear waters. Perfect for swimming, sunbathing, and watching spectacular sunrises.',
+        distance: '2 min walk from house',
+        image: '/images/house/abades-beach.jpg'
+      },
+      {
+        badge: 'Excursion',
+        badgeColor: 'bg-blue-600',
+        title: 'Whale & Dolphin Watching',
+        description: 'Spot pilot whales, bottlenose dolphins, and more on luxury yacht tours departing from nearby Costa Adeje and Los Cristianos.',
+        distance: '25 min drive',
+        image: '/images/blog/dolphin-watching-tenerife.jpg'
+      },
+      {
+        badge: 'UNESCO',
+        badgeColor: 'bg-red-500',
+        title: 'Mount Teide National Park',
+        description: 'Visit Spain\'s highest peak and UNESCO World Heritage Site. Cable car rides, stargazing, and volcanic landscapes await.',
+        distance: '45 min drive',
+        image: '/images/blog/canadas-del-teide.jpg'
+      },
+      {
+        badge: 'Adventure',
+        badgeColor: 'bg-green-500',
+        title: 'Rock Climbing in Arico',
+        description: 'Arico is Tenerife\'s premier climbing destination with 260+ routes through spectacular volcanic landscapes and ravines.',
+        distance: '15 min drive',
+        image: '/images/blog/arico-sus-villa-topo_0.jpg'
+      }
+    ],
+    blog: {
+      subtitle: 'Travel Inspiration',
+      title: 'Our Blog',
+      description: 'Insider tips, local guides, and everything you need to know about Abades, South Tenerife, and the Canary Islands',
+      viewAll: 'View All Blog Posts',
+      posts: [
+        {
+          category: 'Abades',
+          categoryColor: 'bg-ocean-500',
+          date: 'May 5, 2026',
+          readTime: '8 min read',
+          title: 'The Ultimate Snorkeling Guide to Abades Marine Reserve',
+          excerpt: 'Discover the best spots, what marine life to expect, and essential tips for snorkeling in Abades\' protected waters...',
+          image: 'https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=600&q=80',
+          slug: 'snorkeling-guide-abades'
+        },
+        {
+          category: 'Abades',
+          categoryColor: 'bg-purple-500',
+          date: 'April 28, 2026',
+          readTime: '12 min read',
+          title: 'The Mysterious Abandoned Leper Colony of Abades',
+          excerpt: 'The haunting ruins of Sanatorio de Abona tell a fascinating story of 1940s Spain, leprosy, and a colony that was never used...',
+          image: 'https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=600&q=80',
+          slug: 'abandoned-leper-colony'
+        },
+        {
+          category: 'South Tenerife',
+          categoryColor: 'bg-green-500',
+          date: 'April 20, 2026',
+          readTime: '10 min read',
+          title: '15 Hidden Gems in South Tenerife',
+          excerpt: 'Skip the crowded tourist traps and discover the authentic south coast of Tenerife, from secret beaches to local restaurants...',
+          image: 'https://images.unsplash.com/photo-1596178065887-1198b6148b2b?w=600&q=80',
+          slug: 'south-tenerife-hidden-gems'
+        }
+      ]
+    },
+    map: {
+  title: 'Find Us in Paradise',
+  subtitle: 'Location',
+  address: 'Abades Ocean Deck House, Abades, 38588 Arico, Tenerife, Spain',
+  directions: 'Get Directions',
+  nearby: 'Nearby',
+  airport: 'Tenerife South Airport',
+  airportTime: '15 min drive',
+  beach: 'Playa de Abades',
+  beachTime: '2 min walk'
+},
+    booking: {
+      subtitle: 'Ready for your escape?',
+      title: 'Book Your Stay at Abades Ocean Deck House',
+      description: 'Choose your preferred booking platform below. We offer the same great experience whether you book through Airbnb or Booking.com'
+    },
+    testimonials: {
+      title: 'What Our Guests Say',
+      items: [
+        {
+          rating: 5,
+          text: 'Absolutely stunning location! The ocean deck is perfect for morning coffee. Abades is a hidden gem — so peaceful and the snorkeling is incredible.',
+          name: 'Sarah M.',
+          country: '🇬🇧 United Kingdom',
+          initial: 'S',
+          color: 'bg-ocean-200 text-ocean-700'
+        },
+        {
+          rating: 5,
+          text: 'Perfekte Unterkunft! Ruhig, sauber, und die Aussicht ist atemberaubend. Wir kommen definitiv wieder. Die Tauchplätze sind fantastisch.',
+          name: 'Markus K.',
+          country: '🇩🇪 Germany',
+          initial: 'M',
+          color: 'bg-green-200 text-green-700'
+        },
+        {
+          rating: 5,
+          text: 'Un lugar mágico para desconectar. La casa tiene todo lo necesario y la playa de Abades es preciosa. Muy recomendable para familias.',
+          name: 'Carmen R.',
+          country: '🇪🇸 Spain',
+          initial: 'C',
+          color: 'bg-red-200 text-red-700'
+        }
+      ]
+    }
+  },
+  es: {
+    nav: { home: 'Inicio', about: 'La Casa', gallery: 'Galería', things: 'Qué Hacer', blog: 'Blog', contact: 'Contacto', book: 'Reservar' },
+    hero: {
+      location: 'Abades, Arico · Sur de Tenerife · Islas Canarias',
+      subtitle: 'Tu refugio costero privado con impresionantes vistas al océano, a pasos de aguas cristalinas perfectas para snorkel y buceo en una de las joyas escondidas de Tenerife.',
+      cta1: 'Ver Disponibilidad',
+      cta2: 'Explorar La Casa'
+    },
+    highlights: [
+      { icon: '☀️', title: '300+ Días de Sol', desc: 'Sol todo el año' },
+      { icon: '🏖️', title: 'Playa: 2 min andando', desc: 'Aguas cristalinas' },
+      { icon: '🐠', title: 'Reserva Marina', desc: 'Snorkel y buceo' },
+      { icon: '🏔️', title: 'Teide Cerca', desc: 'Patrimonio UNESCO' }
+    ],
+    about: {
+      subtitle: 'Bienvenido a tu escape',
+      title: 'Una Casa Donde el Océano Llega a Tu Puerta',
+      description: 'Abades Ocean Deck House es una casa de vacaciones bellamente diseñada ubicada en el tranquilo pueblo costero de Abades, en el municipio de Arico, Sur de Tenerife. Con su amplia terraza con vistas al océano, comodidades modernas y proximidad a playas prístinas, es la base perfecta para explorar uno de los secretos mejor guardados de las Islas Canarias.',
+      features: [
+        { icon: '🛏️', label: '2 Dormitorios' },
+        { icon: '🚿', label: '1 Baño' },
+        { icon: '📶', label: 'WiFi Rápido' },
+        { icon: '🅿️', label: 'Parking Gratis' },
+        { icon: '🏖️', label: 'Terraza al Mar' },
+        { icon: '🍳', label: 'Cocina Completa' }
+      ]
+    },
+    gallery: {
+      subtitle: 'Tour Visual',
+      title: 'Galería',
+      description: 'Explora nuestra impresionante propiedad y los hermosos alrededores de Abades'
+    },
+    thingsTitle: 'Qué Hacer en Abades y Sur de Tenerife',
+    thingsSubtitle: 'Explora y Descubre',
+    thingsDescription: 'Desde snorkel de clase mundial en áreas marinas protegidas hasta explorar misteriosas ruinas abandonadas, Abades ofrece experiencias inolvidables',
+    activities: [
+      {
+        badge: 'Actividad #1',
+        badgeColor: 'bg-ocean-500',
+        title: 'Snorkel y Buceo',
+        description: 'Explora las aguas cristalinas del área marina protegida de Abades. Ve tortugas, rayas y peces coloridos a pasos de la casa.',
+        distance: '2 min andando desde la casa',
+        image: 'https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=600&q=80'
+      },
+      {
+        badge: 'Histórico',
+        badgeColor: 'bg-purple-500',
+        title: 'Sanatorio de Abona (Ruinas de la Leprosería)',
+        description: 'Explora el hermoso y misterioso sanatorio de leprosos abandonado de los años 40. Una pieza única de la historia de Tenerife con impresionantes vistas al océano.',
+        distance: '10 min andando',
+        image: 'https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=600&q=80'
+      },
+      {
+        badge: 'Playa',
+        badgeColor: 'bg-sand-400 text-volcanic-900',
+        title: 'Playa de Abades',
+        description: 'Una playa tranquila y familiar con aguas claras y calmadas. Perfecta para nadar, tomar el sol y ver espectaculares amaneceres.',
+        distance: '2 min andando desde la casa',
+        image: 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=600&q=80'
+      },
+      {
+        badge: 'Excursión',
+        badgeColor: 'bg-blue-600',
+        title: 'Avistamiento de Ballenas y Delfines',
+        description: 'Observa ballenas piloto, delfines mulares y más en tours en yate de lujo que salen desde Costa Adeje y Los Cristianos cercanos.',
+        distance: '25 min en coche',
+        image: 'https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=600&q=80'
+      },
+      {
+        badge: 'UNESCO',
+        badgeColor: 'bg-red-500',
+        title: 'Parque Nacional del Teide',
+        description: 'Visita el pico más alto de España y Patrimonio de la Humanidad de la UNESCO. Te esperan paseos en teleférico, observación de estrellas y paisajes volcánicos.',
+        distance: '45 min en coche',
+        image: 'https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=600&q=80'
+      },
+      {
+        badge: 'Aventura',
+        badgeColor: 'bg-green-500',
+        title: 'Escalada en Arico',
+        description: 'Arico es el destino principal de escalada de Tenerife con más de 260 rutas a través de espectaculares paisajes volcánicos y barrancos.',
+        distance: '15 min en coche',
+        image: 'https://images.unsplash.com/photo-1522163182402-834f871fd851?w=600&q=80'
+      }
+    ],
+    blog: {
+      subtitle: 'Inspiración de Viaje',
+      title: 'Nuestro Blog',
+      description: 'Consejos de expertos, guías locales y todo lo que necesitas saber sobre Abades, Sur de Tenerife y las Islas Canarias',
+      viewAll: 'Ver Todos los Artículos',
+      posts: [
+        {
+          category: 'Abades',
+          categoryColor: 'bg-ocean-500',
+          date: '5 de Mayo, 2026',
+          readTime: '8 min de lectura',
+          title: 'La Guía Definitiva de Snorkel en la Reserva Marina de Abades',
+          excerpt: 'Descubre los mejores lugares, qué vida marina esperar y consejos esenciales para hacer snorkel en las aguas protegidas de Abades...',
+          image: 'https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=600&q=80',
+          slug: 'snorkeling-guide-abades'
+        },
+        {
+          category: 'Abades',
+          categoryColor: 'bg-purple-500',
+          date: '28 de Abril, 2026',
+          readTime: '12 min de lectura',
+          title: 'La Misteriosa Colonia de Leprosos Abandonada de Abades',
+          excerpt: 'Las ruinas inquietantes del Sanatorio de Abona cuentan una fascinante historia de la España de los años 40, la lepra y una colonia que nunca se usó...',
+          image: 'https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=600&q=80',
+          slug: 'abandoned-leper-colony'
+        },
+        {
+          category: 'Sur de Tenerife',
+          categoryColor: 'bg-green-500',
+          date: '20 de Abril, 2026',
+          readTime: '10 min de lectura',
+          title: '15 Joyas Escondidas en el Sur de Tenerife',
+          excerpt: 'Evita las trampas turísticas abarrotadas y descubre el auténtico sur de Tenerife, desde playas secretas hasta restaurantes locales...',
+          image: 'https://images.unsplash.com/photo-1596178065887-1198b6148b2b?w=600&q=80',
+          slug: 'south-tenerife-hidden-gems'
+        }
+      ]
+    },
+    map: {
+  title: 'Encuéntranos en el Paraíso',
+  subtitle: 'Ubicación',
+  address: 'Abades Ocean Deck House, Abades, 38588 Arico, Tenerife, España',
+  directions: 'Cómo Llegar',
+  nearby: 'Cerca',
+  airport: 'Aeropuerto Tenerife Sur',
+  airportTime: '15 min en coche',
+  beach: 'Playa de Abades',
+  beachTime: '2 min andando'
+},
+    booking: {
+      subtitle: '¿Listo para tu escape?',
+      title: 'Reserva tu Estancia en Abades Ocean Deck House',
+      description: 'Elige tu plataforma de reserva preferida. Ofrecemos la misma gran experiencia ya sea que reserves a través de Airbnb o Booking.com'
+    },
+    testimonials: {
+      title: 'Lo Que Dicen Nuestros Huéspedes',
+      items: [
+        {
+          rating: 5,
+          text: '¡Ubicación absolutamente impresionante! La terraza al mar es perfecta para el café de la mañana. Abades es una joya escondida — tan tranquilo y el snorkel es increíble.',
+          name: 'Sarah M.',
+          country: '🇬🇧 Reino Unido',
+          initial: 'S',
+          color: 'bg-ocean-200 text-ocean-700'
+        },
+        {
+          rating: 5,
+          text: 'Perfekte Unterkunft! Ruhig, sauber, und die Aussicht ist atemberaubend. Wir kommen definitiv wieder. Die Tauchplätze sind fantastisch.',
+          name: 'Markus K.',
+          country: '🇩🇪 Alemania',
+          initial: 'M',
+          color: 'bg-green-200 text-green-700'
+        },
+        {
+          rating: 5,
+          text: 'Un lugar mágico para desconectar. La casa tiene todo lo necesario y la playa de Abades es preciosa. Muy recomendable para familias.',
+          name: 'Carmen R.',
+          country: '🇪🇸 España',
+          initial: 'C',
+          color: 'bg-red-200 text-red-700'
+        }
+      ]
+    }
+  },
+  de: {
+    nav: { home: 'Startseite', about: 'Das Haus', gallery: 'Galerie', things: 'Aktivitäten', blog: 'Blog', contact: 'Kontakt', book: 'Jetzt Buchen' },
+    hero: {
+      location: 'Abades, Arico · Süd-Teneriffa · Kanarische Inseln',
+      subtitle: 'Ihr privater Küstenrückzugsort mit atemberaubendem Meerblick, nur wenige Schritte von kristallklarem Wasser entfernt, perfekt zum Schnorcheln und Tauchen in einem der versteckten Juwelen Teneriffas.',
+      cta1: 'Verfügbarkeit Prüfen',
+      cta2: 'Das Haus Erkunden'
+    },
+    highlights: [
+      { icon: '☀️', title: '300+ Sonnentage', desc: 'Ganzjährig Sonne' },
+      { icon: '🏖️', title: 'Strand: 2 Min. zu Fuß', desc: 'Kristallklares Wasser' },
+      { icon: '🐠', title: 'Meeresschutzgebiet', desc: 'Schnorcheln & Tauchen' },
+      { icon: '🏔️', title: 'Teide in der Nähe', desc: 'UNESCO-Welterbe' }
+    ],
+    about: {
+      subtitle: 'Willkommen in Ihrer Auszeit',
+      title: 'Ein Zuhause, Wo das Meer Vor Ihrer Tür Liegt',
+      description: 'Das Abades Ocean Deck House ist ein wunderschön gestaltetes Ferienhaus im ruhigen Küstendorf Abades in der Gemeinde Arico, Süd-Teneriffa. Mit seiner geräumigen Meerblick-Terrasse, modernen Annehmlichkeiten und der Nähe zu unberührten Stränden ist es der perfekte Ausgangspunkt, um eines der bestgehüteten Geheimnisse der Kanarischen Inseln zu erkunden.',
+      features: [
+        { icon: '🛏️', label: '2 Schlafzimmer' },
+        { icon: '🚿', label: '1 Badezimmer' },
+        { icon: '📶', label: 'Schnelles WLAN' },
+        { icon: '🅿️', label: 'Kostenloser Parkplatz' },
+        { icon: '🏖️', label: 'Meerblick-Terrasse' },
+        { icon: '🍳', label: 'Vollständige Küche' }
+      ]
+    },
+    gallery: {
+      subtitle: 'Visuelle Tour',
+      title: 'Galerie',
+      description: 'Erkunden Sie unser atemberaubendes Anwesen und die wunderschöne Umgebung von Abades'
+    },
+    thingsTitle: 'Aktivitäten in Abades & Süd-Teneriffa',
+    thingsSubtitle: 'Erkunden & Entdecken',
+    thingsDescription: 'Von Weltklasse-Schnorcheln in Meeresschutzgebieten bis zur Erkundung mysteriöser verlassener Ruinen bietet Abades unvergessliche Erlebnisse',
+    activities: [
+      {
+        badge: 'Top-Aktivität',
+        badgeColor: 'bg-ocean-500',
+        title: 'Schnorcheln & Tauchen',
+        description: 'Erkunden Sie das kristallklare Wasser des Meeresschutzgebiets Abades. Sehen Sie Schildkröten, Rochen und bunte Fische nur wenige Schritte vom Haus entfernt.',
+        distance: '2 Min. zu Fuß vom Haus',
+        image: 'https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=600&q=80'
+      },
+      {
+        badge: 'Historisch',
+        badgeColor: 'bg-purple-500',
+        title: 'Sanatorio de Abona (Leprakolonie-Ruinen)',
+        description: 'Erkunden Sie das gespenstisch schöne verlassene Lepra-Sanatorium aus den 1940er Jahren. Ein einzigartiges Stück der Geschichte Teneriffas mit atemberaubendem Meerblick.',
+        distance: '10 Min. zu Fuß',
+        image: 'https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=600&q=80'
+      },
+      {
+        badge: 'Strand',
+        badgeColor: 'bg-sand-400 text-volcanic-900',
+        title: 'Playa de Abades',
+        description: 'Ein ruhiger, familienfreundlicher Strand mit ruhigem, klarem Wasser. Perfekt zum Schwimmen, Sonnenbaden und Beobachten spektakulärer Sonnenaufgänge.',
+        distance: '2 Min. zu Fuß vom Haus',
+        image: 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=600&q=80'
+      },
+      {
+        badge: 'Ausflug',
+        badgeColor: 'bg-blue-600',
+        title: 'Wal- & Delfinbeobachtung',
+        description: 'Beobachten Sie Grindwale, Große Tümmler und mehr auf Luxus-Yachttouren ab Costa Adeje und Los Cristianos in der Nähe.',
+        distance: '25 Min. Fahrt',
+        image: 'https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=600&q=80'
+      },
+      {
+        badge: 'UNESCO',
+        badgeColor: 'bg-red-500',
+        title: 'Teide-Nationalpark',
+        description: 'Besuchen Sie Spaniens höchsten Gipfel und UNESCO-Weltkulturerbe. Seilbahnfahrten, Sternenbeobachtung und Vulkanlandschaften erwarten Sie.',
+        distance: '45 Min. Fahrt',
+        image: 'https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=600&q=80'
+      },
+      {
+        badge: 'Abenteuer',
+        badgeColor: 'bg-green-500',
+        title: 'Klettern in Arico',
+        description: 'Arico ist Teneriffas erstklassiges Kletterziel mit über 260 Routen durch spektakuläre Vulkanlandschaften und Schluchten.',
+        distance: '15 Min. Fahrt',
+        image: 'https://images.unsplash.com/photo-1522163182402-834f871fd851?w=600&q=80'
+      }
+    ],
+    blog: {
+      subtitle: 'Reiseinspiration',
+      title: 'Unser Blog',
+      description: 'Insider-Tipps, lokale Guides und alles, was Sie über Abades, Süd-Teneriffa und die Kanarischen Inseln wissen müssen',
+      viewAll: 'Alle Blog-Beiträge Ansehen',
+      posts: [
+        {
+          category: 'Abades',
+          categoryColor: 'bg-ocean-500',
+          date: '5. Mai 2026',
+          readTime: '8 Min. Lesezeit',
+          title: 'Der Ultimative Schnorchel-Guide für das Meeresschutzgebiet Abades',
+          excerpt: 'Entdecken Sie die besten Spots, welches Meeresleben Sie erwarten können und wichtige Tipps zum Schnorcheln in den geschützten Gewässern von Abades...',
+          image: 'https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=600&q=80',
+          slug: 'snorkeling-guide-abades'
+        },
+        {
+          category: 'Abades',
+          categoryColor: 'bg-purple-500',
+          date: '28. April 2026',
+          readTime: '12 Min. Lesezeit',
+          title: 'Die Mysteriöse Verlassene Leprakolonie von Abades',
+          excerpt: 'Die gespenstischen Ruinen des Sanatorio de Abona erzählen eine faszinierende Geschichte des Spaniens der 1940er Jahre, der Lepra und einer Kolonie, die nie genutzt wurde...',
+          image: 'https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=600&q=80',
+          slug: 'abandoned-leper-colony'
+        },
+        {
+          category: 'Süd-Teneriffa',
+          categoryColor: 'bg-green-500',
+          date: '20. April 2026',
+          readTime: '10 Min. Lesezeit',
+          title: '15 Versteckte Juwelen in Süd-Teneriffa',
+          excerpt: 'Überspringen Sie die überfüllten Touristenfallen und entdecken Sie das authentische Süd-Teneriffa, von geheimen Stränden bis zu lokalen Restaurants...',
+          image: 'https://images.unsplash.com/photo-1596178065887-1198b6148b2b?w=600&q=80',
+          slug: 'south-tenerife-hidden-gems'
+        }
+      ]
+    },
+    map: {
+  title: 'Finden Sie uns im Paradies',
+  subtitle: 'Standort',
+  address: 'Abades Ocean Deck House, Abades, 38588 Arico, Teneriffa, Spanien',
+  directions: 'Route Anzeigen',
+  nearby: 'In der Nähe',
+  airport: 'Flughafen Teneriffa Süd',
+  airportTime: '15 Min. Fahrt',
+  beach: 'Playa de Abades',
+  beachTime: '2 Min. zu Fuß'
+},
+    booking: {
+      subtitle: 'Bereit für Ihre Auszeit?',
+      title: 'Buchen Sie Ihren Aufenthalt im Abades Ocean Deck House',
+      description: 'Wählen Sie unten Ihre bevorzugte Buchungsplattform. Wir bieten das gleiche großartige Erlebnis, egal ob Sie über Airbnb oder Booking.com buchen'
+    },
+    testimonials: {
+      title: 'Was Unsere Gäste Sagen',
+      items: [
+        {
+          rating: 5,
+          text: 'Absolut atemberaubende Lage! Die Meerblick-Terrasse ist perfekt für den Morgenkaffee. Abades ist ein verstecktes Juwel — so friedlich und das Schnorcheln ist unglaublich.',
+          name: 'Sarah M.',
+          country: '🇬🇧 Vereinigtes Königreich',
+          initial: 'S',
+          color: 'bg-ocean-200 text-ocean-700'
+        },
+        {
+          rating: 5,
+          text: 'Perfekte Unterkunft! Ruhig, sauber, und die Aussicht ist atemberaubend. Wir kommen definitiv wieder. Die Tauchplätze sind fantastisch.',
+          name: 'Markus K.',
+          country: '🇩🇪 Deutschland',
+          initial: 'M',
+          color: 'bg-green-200 text-green-700'
+        },
+        {
+          rating: 5,
+          text: 'Un lugar mágico para desconectar. La casa tiene todo lo necesario y la playa de Abades es preciosa. Muy recomendable para familias.',
+          name: 'Carmen R.',
+          country: '🇪🇸 Spanien',
+          initial: 'C',
+          color: 'bg-red-200 text-red-700'
+        }
+      ]
+    }
+  },
+  fr: {
+    nav: { home: 'Accueil', about: 'La Maison', gallery: 'Galerie', things: 'À Faire', blog: 'Blog', contact: 'Contact', book: 'Réserver' },
+    hero: {
+      location: 'Abades, Arico · Sud de Tenerife · Îles Canaries',
+      subtitle: 'Votre retraite côtière privée avec une vue imprenable sur l\'océan, à quelques pas d\'eaux cristallines parfaites pour la plongée avec tuba et la plongée sous-marine dans l\'un des joyaux cachés de Tenerife.',
+      cta1: 'Vérifier la Disponibilité',
+      cta2: 'Explorer La Maison'
+    },
+    highlights: [
+      { icon: '☀️', title: '300+ Jours de Soleil', desc: 'Soleil toute l\'année' },
+      { icon: '🏖️', title: 'Plage: 2 min à pied', desc: 'Eaux cristallines' },
+      { icon: '🐠', title: 'Réserve Marine', desc: 'Plongée avec tuba' },
+      { icon: '🏔️', title: 'Mt. Teide à Proximité', desc: 'Patrimoine UNESCO' }
+    ],
+    about: {
+      subtitle: 'Bienvenue dans votre évasion',
+      title: 'Une Maison Où l\'Océan Rencontre Votre Porte',
+      description: 'Abades Ocean Deck House est une maison de vacances magnifiquement conçue nichée dans le paisible village côtier d\'Abades, dans la municipalité d\'Arico, au sud de Tenerife. Avec sa spacieuse terrasse vue sur l\'océan, ses équipements modernes et sa proximité avec des plages immaculées, c\'est la base parfaite pour explorer l\'un des secrets les mieux gardés des îles Canaries.',
+      features: [
+        { icon: '🛏️', label: '2 Chambres' },
+        { icon: '🚿', label: '1 Salle de Bain' },
+        { icon: '📶', label: 'WiFi Rapide' },
+        { icon: '🅿️', label: 'Parking Gratuit' },
+        { icon: '🏖️', label: 'Terrasse Océan' },
+        { icon: '🍳', label: 'Cuisine Complète' }
+      ]
+    },
+    gallery: {
+      subtitle: 'Visite Visuelle',
+      title: 'Galerie',
+      description: 'Explorez notre superbe propriété et les magnifiques environs d\'Abades'
+    },
+    thingsTitle: 'Choses à Faire à Abades et Sud de Tenerife',
+    thingsSubtitle: 'Explorer & Découvrir',
+    thingsDescription: 'De la plongée avec tuba de classe mondiale dans les zones marines protégées à l\'exploration de ruines abandonnées mystérieuses, Abades offre des expériences inoubliables',
+    activities: [
+      {
+        badge: 'Activité #1',
+        badgeColor: 'bg-ocean-500',
+        title: 'Plongée avec Tuba & Plongée',
+        description: 'Explorez les eaux cristallines de la zone marine protégée d\'Abades. Voyez des tortues, des raies et des poissons colorés à quelques pas de la maison.',
+        distance: '2 min à pied de la maison',
+        image: 'https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=600&q=80'
+      },
+      {
+        badge: 'Historique',
+        badgeColor: 'bg-purple-500',
+        title: 'Sanatorio de Abona (Ruines de la Léproserie)',
+        description: 'Explorez le sanatorium de lépreux abandonné magnifiquement hanté des années 1940. Un morceau unique de l\'histoire de Tenerife avec une vue imprenable sur l\'océan.',
+        distance: '10 min à pied',
+        image: 'https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=600&q=80'
+      },
+      {
+        badge: 'Plage',
+        badgeColor: 'bg-sand-400 text-volcanic-900',
+        title: 'Playa de Abades',
+        description: 'Une plage tranquille et familiale avec des eaux calmes et claires. Parfaite pour nager, bronzer et observer des levers de soleil spectaculaires.',
+        distance: '2 min à pied de la maison',
+        image: 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=600&q=80'
+      },
+      {
+        badge: 'Excursion',
+        badgeColor: 'bg-blue-600',
+        title: 'Observation des Baleines et Dauphins',
+        description: 'Observez les baleines pilotes, les grands dauphins et plus encore lors de tours en yacht de luxe au départ de Costa Adeje et Los Cristianos à proximité.',
+        distance: '25 min en voiture',
+        image: 'https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=600&q=80'
+      },
+      {
+        badge: 'UNESCO',
+        badgeColor: 'bg-red-500',
+        title: 'Parc National du Teide',
+        description: 'Visitez le plus haut sommet d\'Espagne et site du patrimoine mondial de l\'UNESCO. Téléphérique, observation des étoiles et paysages volcaniques vous attendent.',
+        distance: '45 min en voiture',
+        image: 'https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=600&q=80'
+      },
+      {
+        badge: 'Aventure',
+        badgeColor: 'bg-green-500',
+        title: 'Escalade à Arico',
+        description: 'Arico est la destination d\'escalade de premier plan de Tenerife avec plus de 260 voies à travers des paysages volcaniques et des ravins spectaculaires.',
+        distance: '15 min en voiture',
+        image: 'https://images.unsplash.com/photo-1522163182402-834f871fd851?w=600&q=80'
+      }
+    ],
+    blog: {
+      subtitle: 'Inspiration Voyage',
+      title: 'Notre Blog',
+      description: 'Conseils d\'initiés, guides locaux et tout ce que vous devez savoir sur Abades, le sud de Tenerife et les îles Canaries',
+      viewAll: 'Voir Tous les Articles',
+      posts: [
+        {
+          category: 'Abades',
+          categoryColor: 'bg-ocean-500',
+          date: '5 Mai 2026',
+          readTime: '8 min de lecture',
+          title: 'Le Guide Ultime de la Plongée avec Tuba dans la Réserve Marine d\'Abades',
+          excerpt: 'Découvrez les meilleurs spots, quelle vie marine attendre et des conseils essentiels pour la plongée avec tuba dans les eaux protégées d\'Abades...',
+          image: 'https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=600&q=80',
+          slug: 'snorkeling-guide-abades'
+        },
+        {
+          category: 'Abades',
+          categoryColor: 'bg-purple-500',
+          date: '28 Avril 2026',
+          readTime: '12 min de lecture',
+          title: 'La Mystérieuse Colonie de Lépreux Abandonnée d\'Abades',
+          excerpt: 'Les ruines hantées du Sanatorio de Abona racontent une histoire fascinante de l\'Espagne des années 1940, de la lèpre et d\'une colonie qui n\'a jamais été utilisée...',
+          image: 'https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=600&q=80',
+          slug: 'abandoned-leper-colony'
+        },
+        {
+          category: 'Sud de Tenerife',
+          categoryColor: 'bg-green-500',
+          date: '20 Avril 2026',
+          readTime: '10 min de lecture',
+          title: '15 Joyaux Cachés du Sud de Tenerife',
+          excerpt: 'Évitez les pièges à touristes bondés et découvrez le sud authentique de Tenerife, des plages secrètes aux restaurants locaux...',
+          image: 'https://images.unsplash.com/photo-1596178065887-1198b6148b2b?w=600&q=80',
+          slug: 'south-tenerife-hidden-gems'
+        }
+      ]
+    },
+    map: {
+  title: 'Trouvez-nous au Paradis',
+  subtitle: 'Emplacement',
+  address: 'Abades Ocean Deck House, Abades, 38588 Arico, Tenerife, Espagne',
+  directions: 'Obtenir l\'itinéraire',
+  nearby: 'À proximité',
+  airport: 'Aéroport de Tenerife Sud',
+  airportTime: '15 min en voiture',
+  beach: 'Playa de Abades',
+  beachTime: '2 min à pied'
+},
+    booking: {
+      subtitle: 'Prêt pour votre évasion?',
+      title: 'Réservez Votre Séjour à Abades Ocean Deck House',
+      description: 'Choisissez votre plateforme de réservation préférée ci-dessous. Nous offrons la même excellente expérience que vous réserviez via Airbnb ou Booking.com'
+    },
+    testimonials: {
+      title: 'Ce Que Disent Nos Invités',
+      items: [
+        {
+          rating: 5,
+          text: 'Emplacement absolument magnifique! La terrasse océan est parfaite pour le café du matin. Abades est un joyau caché — si paisible et la plongée avec tuba est incroyable.',
+          name: 'Sarah M.',
+          country: '🇬🇧 Royaume-Uni',
+          initial: 'S',
+          color: 'bg-ocean-200 text-ocean-700'
+        },
+        {
+          rating: 5,
+          text: 'Perfekte Unterkunft! Ruhig, sauber, und die Aussicht ist atemberaubend. Wir kommen definitiv wieder. Die Tauchplätze sind fantastisch.',
+          name: 'Markus K.',
+          country: '🇩🇪 Allemagne',
+          initial: 'M',
+          color: 'bg-green-200 text-green-700'
+        },
+        {
+          rating: 5,
+          text: 'Un lugar mágico para desconectar. La casa tiene todo lo necesario y la playa de Abades es preciosa. Muy recomendable para familias.',
+          name: 'Carmen R.',
+          country: '🇪🇸 Espagne',
+          initial: 'C',
+          color: 'bg-red-200 text-red-700'
+        }
+      ]
+    }
+  },
+  pl: {
+    nav: { home: 'Start', about: 'Dom', gallery: 'Galeria', things: 'Atrakcje', blog: 'Blog', contact: 'Kontakt', book: 'Rezerwuj' },
+    hero: {
+      location: 'Abades, Arico · Południowe Teneryfa · Wyspy Kanaryjskie',
+      subtitle: 'Twój prywatny nadmorski azyl z oszałamiającym widokiem na ocean, krok od krystalicznie czystych wód idealnych do snorkelingu i nurkowania w jednym z ukrytych klejnotów Teneryfy.',
+      cta1: 'Sprawdź Dostępność',
+      cta2: 'Odkryj Dom'
+    },
+    highlights: [
+      { icon: '☀️', title: '300+ Słonecznych Dni', desc: 'Słońce przez cały rok' },
+      { icon: '🏖️', title: 'Plaża: 2 min spacerem', desc: 'Krystalicznie czyste wody' },
+      { icon: '🐠', title: 'Rezerwat Morski', desc: 'Snorkeling i nurkowanie' },
+      { icon: '🏔️', title: 'Mt. Teide w Pobliżu', desc: 'Dziedzictwo UNESCO' }
+    ],
+    about: {
+      subtitle: 'Witamy w Twoim miejscu ucieczki',
+      title: 'Dom, Gdzie Ocean Spotyka Twoje Drzwi',
+      description: 'Abades Ocean Deck House to pięknie zaprojektowany dom wakacyjny położony w spokojnej nadmorskiej wiosce Abades, w gminie Arico, na południowej Teneryfie. Z przestronnym tarasem z widokiem na ocean, nowoczesnymi udogodnieniami i bliskością dziewiczych plaż, jest idealną bazą do odkrywania jednego z najlepiej strzeżonych sekretów Wysp Kanaryjskich.',
+      features: [
+        { icon: '🛏️', label: '2 Sypialnie' },
+        { icon: '🚿', label: '1 Łazienka' },
+        { icon: '📶', label: 'Szybkie WiFi' },
+        { icon: '🅿️', label: 'Darmowy Parking' },
+        { icon: '🏖️', label: 'Taras Oceaniczny' },
+        { icon: '🍳', label: 'Pełna Kuchnia' }
+      ]
+    },
+    gallery: {
+      subtitle: 'Wizualna Wycieczka',
+      title: 'Galeria',
+      description: 'Odkryj naszą oszałamiającą nieruchomość i piękne otoczenie Abades'
+    },
+    thingsTitle: 'Co Robić w Abades i Południowej Teneryfie',
+    thingsSubtitle: 'Odkrywaj i Poznawaj',
+    thingsDescription: 'Od światowej klasy snorkelingu w chronionych obszarach morskich po eksplorację tajemniczych opuszczonych ruin, Abades oferuje niezapomniane doświadczenia',
+    activities: [
+      {
+        badge: 'Atrakcja #1',
+        badgeColor: 'bg-ocean-500',
+        title: 'Snorkeling i Nurkowanie',
+        description: 'Odkryj krystalicznie czyste wody chronionego obszaru morskiego Abades. Zobacz żółwie, płaszczki i kolorowe ryby zaledwie kilka kroków od domu.',
+        distance: '2 min spacerem od domu',
+        image: 'https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=600&q=80'
+      },
+      {
+        badge: 'Historyczne',
+        badgeColor: 'bg-purple-500',
+        title: 'Sanatorio de Abona (Ruiny Kolonii Trędowatych)',
+        description: 'Odkryj upiorne piękno opuszczonego sanatorium dla trędowatych z lat 40. XX wieku. Wyjątkowy kawałek historii Teneryfy z oszałamiającym widokiem na ocean.',
+        distance: '10 min spacerem',
+        image: 'https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=600&q=80'
+      },
+      {
+        badge: 'Plaża',
+        badgeColor: 'bg-sand-400 text-volcanic-900',
+        title: 'Playa de Abades',
+        description: 'Spokojna, przyjazna rodzinom plaża ze spokojnymi, czystymi wodami. Idealna do pływania, opalania się i oglądania spektakularnych wschodów słońca.',
+        distance: '2 min spacerem od domu',
+        image: 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=600&q=80'
+      },
+      {
+        badge: 'Wycieczka',
+        badgeColor: 'bg-blue-600',
+        title: 'Obserwacja Wielorybów i Delfinów',
+        description: 'Obserwuj wieloryby pilotowe, delfiny butlonosy i więcej podczas luksusowych wycieczek jachtem z pobliskiego Costa Adeje i Los Cristianos.',
+        distance: '25 min jazdy',
+        image: 'https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=600&q=80'
+      },
+      {
+        badge: 'UNESCO',
+        badgeColor: 'bg-red-500',
+        title: 'Park Narodowy Teide',
+        description: 'Odwiedź najwyższy szczyt Hiszpanii i obiekt Światowego Dziedzictwa UNESCO. Czekają na Ciebie przejażdżki kolejką linową, obserwacja gwiazd i wulkaniczne krajobrazy.',
+        distance: '45 min jazdy',
+        image: 'https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=600&q=80'
+      },
+      {
+        badge: 'Przygoda',
+        badgeColor: 'bg-green-500',
+        title: 'Wspinaczka Skałkowa w Arico',
+        description: 'Arico to najlepsze miejsce wspinaczkowe na Teneryfie z ponad 260 trasami przez spektakularne wulkaniczne krajobrazy i wąwozy.',
+        distance: '15 min jazdy',
+        image: 'https://images.unsplash.com/photo-1522163182402-834f871fd851?w=600&q=80'
+      }
+    ],
+    blog: {
+      subtitle: 'Inspiracje Podróżnicze',
+      title: 'Nasz Blog',
+      description: 'Wskazówki od insiderów, lokalne przewodniki i wszystko, co musisz wiedzieć o Abades, południowej Teneryfie i Wyspach Kanaryjskich',
+      viewAll: 'Zobacz Wszystkie Posty',
+      posts: [
+        {
+          category: 'Abades',
+          categoryColor: 'bg-ocean-500',
+          date: '5 Maja 2026',
+          readTime: '8 min czytania',
+          title: 'Ostateczny Przewodnik po Snorkelingu w Rezerwacie Morskim Abades',
+          excerpt: 'Odkryj najlepsze miejsca, jakie życie morskie możesz zobaczyć i niezbędne wskazówki dotyczące snorkelingu w chronionych wodach Abades...',
+          image: 'https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=600&q=80',
+          slug: 'snorkeling-guide-abades'
+        },
+        {
+          category: 'Abades',
+          categoryColor: 'bg-purple-500',
+          date: '28 Kwietnia 2026',
+          readTime: '12 min czytania',
+          title: 'Tajemnicza Opuszczona Kolonia Trędowatych w Abades',
+          excerpt: 'Upiorne ruiny Sanatorio de Abona opowiadają fascynującą historię Hiszpanii lat 40., trądu i kolonii, która nigdy nie została wykorzystana...',
+          image: 'https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=600&q=80',
+          slug: 'abandoned-leper-colony'
+        },
+        {
+          category: 'Południowa Teneryfa',
+          categoryColor: 'bg-green-500',
+          date: '20 Kwietnia 2026',
+          readTime: '10 min czytania',
+          title: '15 Ukrytych Klejnotów Południowej Teneryfy',
+          excerpt: 'Pomiń zatłoczone pułapki turystyczne i odkryj autentyczne południowe wybrzeże Teneryfy, od sekretnych plaż po lokalne restauracje...',
+          image: 'https://images.unsplash.com/photo-1596178065887-1198b6148b2b?w=600&q=80',
+          slug: 'south-tenerife-hidden-gems'
+        }
+      ]
+    },
+    map: {
+  title: 'Znajdź nas w raju',
+  subtitle: 'Lokalizacja',
+  address: 'Abades Ocean Deck House, Abades, 38588 Arico, Teneryfa, Hiszpania',
+  directions: 'Wyznacz trasę',
+  nearby: 'W pobliżu',
+  airport: 'Lotnisko Teneryfa Południe',
+  airportTime: '15 min jazdy',
+  beach: 'Playa de Abades',
+  beachTime: '2 min spacerem'
+},
+    booking: {
+      subtitle: 'Gotowy na ucieczkę?',
+      title: 'Zarezerwuj Pobyt w Abades Ocean Deck House',
+      description: 'Wybierz preferowaną platformę rezerwacyjną poniżej. Oferujemy to samo wspaniałe doświadczenie, niezależnie od tego, czy rezerwujesz przez Airbnb czy Booking.com'
+    },
+    testimonials: {
+      title: 'Co Mówią Nasi Goście',
+      items: [
+        {
+          rating: 5,
+          text: 'Absolutnie oszałamiająca lokalizacja! Taras oceaniczny jest idealny na poranną kawę. Abades to ukryty klejnot — tak spokojny, a snorkeling jest niesamowity.',
+          name: 'Sarah M.',
+          country: '🇬🇧 Wielka Brytania',
+          initial: 'S',
+          color: 'bg-ocean-200 text-ocean-700'
+        },
+        {
+          rating: 5,
+          text: 'Perfekte Unterkunft! Ruhig, sauber, und die Aussicht ist atemberaubend. Wir kommen definitiv wieder. Die Tauchplätze sind fantastisch.',
+          name: 'Markus K.',
+          country: '🇩🇪 Niemcy',
+          initial: 'M',
+          color: 'bg-green-200 text-green-700'
+        },
+        {
+          rating: 5,
+          text: 'Un lugar mágico para desconectar. La casa tiene todo lo necesario y la playa de Abades es preciosa. Muy recomendable para familias.',
+          name: 'Carmen R.',
+          country: '🇪🇸 Hiszpania',
+          initial: 'C',
+          color: 'bg-red-200 text-red-700'
+        }
+      ]
+    }
+  },
+  uk: {
+    nav: { home: 'Головна', about: 'Будинок', gallery: 'Галерея', things: 'Що робити', blog: 'Блог', contact: 'Контакти', book: 'Забронювати' },
+    hero: {
+      location: 'Абадес, Аріко · Південний Тенеріфе · Канарські острови',
+      subtitle: 'Ваш приватний прибережний відпочинок з приголомшливим видом на океан, за крок від кришталево чистої води, ідеальної для снорклінгу та дайвінгу в одному з прихованих скарбів Тенеріфе.',
+      cta1: 'Перевірити Наявність',
+      cta2: 'Дослідити Будинок'
+    },
+    highlights: [
+      { icon: '☀️', title: '300+ Сонячних Днів', desc: 'Сонце цілий рік' },
+      { icon: '🏖️', title: 'Пляж: 2 хв пішки', desc: 'Кришталево чиста вода' },
+      { icon: '🐠', title: 'Морський Заповідник', desc: 'Снорклінг і дайвінг' },
+      { icon: '🏔️', title: 'Гора Тейде Поруч', desc: 'Спадщина ЮНЕСКО' }
+    ],
+    about: {
+      subtitle: 'Ласкаво просимо до вашої втечі',
+      title: 'Дім, Де Океан Зустрічає Ваші Двері',
+      description: 'Abades Ocean Deck House — це красиво оформлений будинок для відпочинку, розташований у спокійному прибережному селі Абадес, у муніципалітеті Аріко, на півдні Тенеріфе. З просторою терасою з видом на океан, сучасними зручностями та близькістю до незайманих пляжів, це ідеальна база для вивчення одного з найкраще збережених секретів Канарських островів.',
+      features: [
+        { icon: '🛏️', label: '2 Спальні' },
+        { icon: '🚿', label: '1 Ванна Кімната' },
+        { icon: '📶', label: 'Швидкий WiFi' },
+        { icon: '🅿️', label: 'Безкоштовна Парковка' },
+        { icon: '🏖️', label: 'Океанська Тераса' },
+        { icon: '🍳', label: 'Повна Кухня' }
+      ]
+    },
+    gallery: {
+      subtitle: 'Візуальна Екскурсія',
+      title: 'Галерея',
+      description: 'Досліджуйте нашу приголомшливу власність та красиві околиці Абадеса'
+    },
+    thingsTitle: 'Що Робити в Абадесі та Південному Тенеріфе',
+    thingsSubtitle: 'Досліджуйте та Відкривайте',
+    thingsDescription: 'Від світового класу снорклінгу в морських заповідниках до вивчення таємничих покинутих руїн, Абадес пропонує незабутні враження',
+       activities: [
+      {
+        badge: 'Активність #1',
+        badgeColor: 'bg-ocean-500',
+        title: 'Снорклінг і Дайвінг',
+        description: 'Досліджуйте кришталево чисті води морського заповідника Абадес. Побачте черепах, скатів та барвистих риб лише за кілька кроків від будинку.',
+        distance: '2 хв пішки від будинку',
+        image: 'https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=600&q=80'
+      },
+      {
+        badge: 'Історичне',
+        badgeColor: 'bg-purple-500',
+        title: 'Санаторій де Абона (Руїни Колонії Прокажених)',
+        description: 'Досліджуйте моторошно красивий покинутий санаторій для прокажених 1940-х років. Унікальний шматок історії Тенеріфе з приголомшливим видом на океан.',
+        distance: '10 хв пішки',
+        image: 'https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=600&q=80'
+      },
+      {
+        badge: 'Пляж',
+        badgeColor: 'bg-sand-400 text-volcanic-900',
+        title: 'Плайя де Абадес',
+        description: 'Спокійний, сімейний пляж зі спокійною, чистою водою. Ідеально підходить для плавання, засмаги та спостереження за вражаючими сходами сонця.',
+        distance: '2 хв пішки від будинку',
+        image: 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=600&q=80'
+      },
+      {
+        badge: 'Екскурсія',
+        badgeColor: 'bg-blue-600',
+        title: 'Спостереження за Китами та Дельфінами',
+        description: 'Побачте гринд, афалін та інших на розкішних яхтових турах з Коста Адехе та Лос Крістіанос.',
+        distance: '25 хв їзди',
+        image: 'https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=600&q=80'
+      },
+      {
+        badge: 'ЮНЕСКО',
+        badgeColor: 'bg-red-500',
+        title: 'Національний Парк Тейде',
+        description: 'Відвідайте найвищу вершину Іспанії та об\'єкт Світової спадщини ЮНЕСКО. На вас чекають поїздки канатною дорогою, спостереження за зірками та вулканічні ландшафти.',
+        distance: '45 хв їзди',
+        image: 'https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=600&q=80'
+      },
+      {
+        badge: 'Пригода',
+        badgeColor: 'bg-green-500',
+        title: 'Скелелазіння в Аріко',
+        description: 'Аріко — це головне місце для скелелазіння на Тенеріфе з понад 260 маршрутами через вражаючі вулканічні ландшафти та ущелини.',
+        distance: '15 хв їзди',
+        image: 'https://images.unsplash.com/photo-1522163182402-834f871fd851?w=600&q=80'
+      }
+    ],
+    blog: {
+      subtitle: 'Натхнення для Подорожей',
+      title: 'Наш Блог',
+      description: 'Інсайдерські поради, місцеві путівники та все, що вам потрібно знати про Абадес, Південний Тенеріфе та Канарські острови',
+      viewAll: 'Переглянути Всі Статті',
+      posts: [
+        {
+          category: 'Абадес',
+          categoryColor: 'bg-ocean-500',
+          date: '5 Травня 2026',
+          readTime: '8 хв читання',
+          title: 'Найкращий Посібник зі Снорклінгу в Морському Заповіднику Абадес',
+          excerpt: 'Відкрийте для себе найкращі місця, яке морське життя очікувати та важливі поради для снорклінгу в захищених водах Абадеса...',
+          image: 'https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=600&q=80',
+          slug: 'snorkeling-guide-abades'
+        },
+        {
+          category: 'Абадес',
+          categoryColor: 'bg-purple-500',
+          date: '28 Квітня 2026',
+          readTime: '12 хв читання',
+          title: 'Таємнича Покинута Колонія Прокажених Абадеса',
+          excerpt: 'Моторошні руїни Санаторію де Абона розповідають захоплюючу історію Іспанії 1940-х років, прокази та колонії, яка ніколи не використовувалася...',
+          image: 'https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=600&q=80',
+          slug: 'abandoned-leper-colony'
+        },
+        {
+          category: 'Південний Тенеріфе',
+          categoryColor: 'bg-green-500',
+          date: '20 Квітня 2026',
+          readTime: '10 хв читання',
+          title: '15 Прихованих Скарбів Південного Тенеріфе',
+          excerpt: 'Пропустіть переповнені туристичні пастки та відкрийте автентичне південне узбережжя Тенеріфе, від секретних пляжів до місцевих ресторанів...',
+          image: 'https://images.unsplash.com/photo-1596178065887-1198b6148b2b?w=600&q=80',
+          slug: 'south-tenerife-hidden-gems'
+        }
+      ]
+    },
+    map: {
+  title: 'Знайдіть нас у раю',
+  subtitle: 'Розташування',
+  address: 'Abades Ocean Deck House, Abades, 38588 Arico, Тенеріфе, Іспанія',
+  directions: 'Отримати маршрут',
+  nearby: 'Поблизу',
+  airport: 'Аеропорт Тенеріфе Південь',
+  airportTime: '15 хв їзди',
+  beach: 'Плайя де Абадес',
+  beachTime: '2 хв пішки'
+},
+    booking: {
+      subtitle: 'Готові до втечі?',
+      title: 'Забронюйте Перебування в Abades Ocean Deck House',
+      description: 'Виберіть бажану платформу бронювання нижче. Ми пропонуємо однаковий чудовий досвід, незалежно від того, чи бронюєте ви через Airbnb або Booking.com'
+    },
+    testimonials: {
+      title: 'Що Кажуть Наші Гості',
+      items: [
+        {
+          rating: 5,
+          text: 'Абсолютно приголомшливе розташування! Океанська тераса ідеальна для ранкової кави. Абадес — це прихований скарб — так спокійно, а снорклінг неймовірний.',
+          name: 'Sarah M.',
+          country: '🇬🇧 Велика Британія',
+          initial: 'S',
+          color: 'bg-ocean-200 text-ocean-700'
+        },
+        {
+          rating: 5,
+          text: 'Perfekte Unterkunft! Ruhig, sauber, und die Aussicht ist atemberaubend. Wir kommen definitiv wieder. Die Tauchplätze sind fantastisch.',
+          name: 'Markus K.',
+          country: '🇩🇪 Німеччина',
+          initial: 'M',
+          color: 'bg-green-200 text-green-700'
+        },
+        {
+          rating: 5,
+          text: 'Un lugar mágico para desconectar. La casa tiene todo lo necesario y la playa de Abades es preciosa. Muy recomendable para familias.',
+          name: 'Carmen R.',
+          country: '🇪🇸 Іспанія',
+          initial: 'C',
+          color: 'bg-red-200 text-red-700'
+        }
+      ]
+    }
+  }
+};
