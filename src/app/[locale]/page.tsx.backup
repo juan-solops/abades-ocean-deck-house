@@ -3,10 +3,8 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import { useState, useEffect } from 'react';
-import InteractiveGallery from '@/components/InteractiveGallery';
 import { translations } from '@/lib/translations';
 import { Analytics } from '@vercel/analytics/next';
-
 
 export default function LocalePage({ params }: { params: { locale: string } }) {
   const { locale } = params;
@@ -228,7 +226,7 @@ export default function LocalePage({ params }: { params: { locale: string } }) {
       </section>
 
       {/* PHOTO GALLERY */}
-       <section id="gallery" className="py-20 lg:py-28 bg-gray-50">
+      <section id="gallery" className="py-20 lg:py-28 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <span className="text-ocean-600 font-semibold text-sm uppercase tracking-wider">{t.gallery.subtitle}</span>
@@ -236,7 +234,76 @@ export default function LocalePage({ params }: { params: { locale: string } }) {
             <p className="text-gray-600 text-lg mt-4 max-w-2xl mx-auto">{t.gallery.description}</p>
           </div>
           
-          <InteractiveGallery />
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 md:gap-4">
+            <div className="col-span-2 row-span-2 rounded-2xl overflow-hidden shadow-lg cursor-pointer hover:scale-105 transition-transform duration-300">
+              <div className="relative h-full min-h-[400px]">
+                <Image src="/images/house/abades-ocean-deck-house-terrace-sofa-door.jpg" alt="Ocean view from deck" fill className="object-cover" />
+              </div>
+            </div>
+            {[
+              '/images/house/abades-ocean-deck-house-terrace-trees2.jpg',
+              '/images/house/abades-ocean-deck-house-terrace-cactus.jpg',
+              '/images/house/abades-ocean-deck-house-terrace-full2.jpg',
+              '/images/house/abades-ocean-deck-house-kitchen3.jpg',
+              '/images/house/abades-ocean-deck-house-bathroom.jpg',
+              '/images/house/abades-ocean-deck-house-second-bedroom.jpg',
+              '/images/house/abades-ocean-deck-house-livingroom.jpg',
+              '/images/house/abades-ocean-deck-house-upstairs-teide.jpg',
+              '/images/house/abades-ocean-deck-house-master-bedroom1.jpg'
+            ].map((src, idx) => (
+              <div key={idx} className="rounded-2xl overflow-hidden shadow-lg cursor-pointer hover:scale-105 transition-transform duration-300">
+                <div className="relative h-48">
+                  <Image src={src} alt={`Gallery image ${idx + 1}`} fill className="object-cover" />
+                </div>
+              </div>
+            ))}
+            <div className="col-span-2 rounded-2xl overflow-hidden shadow-lg cursor-pointer hover:scale-105 transition-transform duration-300">
+              <div className="relative h-48">
+                <Image src="/images/house/abades-beach1.jpg" alt="Tenerife coastline" fill className="object-cover" />
+              </div>
+            </div>
+            {[
+              
+              '/images/blog/abades-south-tenerife-beach.jpg',
+            ].map((src, idx) => (
+              <div key={idx} className="rounded-2xl overflow-hidden shadow-lg cursor-pointer hover:scale-105 transition-transform duration-300">
+                <div className="relative h-48">
+                  <Image src={src} alt={`Gallery image ${idx + 6}`} fill className="object-cover" />
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* THINGS TO DO */}
+      <section id="things-to-do" className="py-20 lg:py-28 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <span className="text-ocean-600 font-semibold text-sm uppercase tracking-wider">{t.thingsSubtitle}</span>
+            <h2 className="font-display text-4xl lg:text-5xl font-bold text-volcanic-900 mt-3">{t.thingsTitle}</h2>
+            <p className="text-gray-600 text-lg mt-4 max-w-3xl mx-auto">{t.thingsDescription}</p>
+          </div>
+          
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {t.activities.map((activity: any, idx: number) => (
+              <div key={idx} className="bg-white rounded-2xl overflow-hidden shadow-lg border border-gray-100 hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 cursor-pointer">
+                <div className="relative h-56">
+                  <Image src={activity.image} alt={activity.title} fill className="object-cover" />
+                  <div className={`absolute top-4 left-4 ${activity.badgeColor} text-white px-3 py-1 rounded-full text-sm font-medium`}>
+                    {activity.badge}
+                  </div>
+                </div>
+                <div className="p-6">
+                  <h3 className="font-display text-xl font-bold mb-2">{activity.title}</h3>
+                  <p className="text-gray-600 mb-4">{activity.description}</p>
+                  <div className="flex items-center text-sm text-gray-500">
+                    <span className="mr-2">🚶</span> {activity.distance}
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
         </div>
       </section>
 
