@@ -6,6 +6,8 @@ import { useState, useEffect } from 'react';
 import InteractiveGallery from '@/components/InteractiveGallery';
 import { translations } from '@/lib/translations';
 import { Analytics } from '@vercel/analytics/next';
+import AirbnbIcon from '@/components/icons/AirbnbIcon';
+import BookingIcon from '@/components/icons/BookingIcon';
 
 
 export default function LocalePage({ params }: { params: { locale: string } }) {
@@ -419,7 +421,7 @@ export default function LocalePage({ params }: { params: { locale: string } }) {
 </section>
 
 
-      {/* BOOKING SECTION */}
+       {/* BOOKING SECTION */}
       <section id="book" className="py-20 lg:py-28 bg-gradient-to-br from-ocean-500 to-ocean-700 text-white">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <span className="text-ocean-100 font-semibold text-sm uppercase tracking-wider">{t.booking.subtitle}</span>
@@ -427,17 +429,18 @@ export default function LocalePage({ params }: { params: { locale: string } }) {
           <p className="text-xl text-white/90 mb-12 max-w-2xl mx-auto">{t.booking.description}</p>
           
           <div className="grid md:grid-cols-2 gap-6 max-w-3xl mx-auto">
-            <a href="https://airbnb.com" target="_blank" rel="noopener noreferrer" className="bg-white text-volcanic-900 px-8 py-6 rounded-2xl font-semibold text-lg hover:shadow-2xl transition flex items-center justify-center space-x-3">
-              <span className="text-2xl">🏠</span>
-              <span>Book on Airbnb</span>
+            <a href="https://airbnb.com" target="_blank" rel="noopener noreferrer" className="bg-white px-8 py-6 rounded-2xl font-semibold text-lg hover:shadow-2xl hover:scale-105 transition-all duration-300 flex items-center justify-center">
+              <Image src="/images/logos/airbnb.png" alt="Airbnb" width={160} height={50} className="h-14 w-auto" />
             </a>
-            <a href="https://booking.com" target="_blank" rel="noopener noreferrer" className="bg-white text-volcanic-900 px-8 py-6 rounded-2xl font-semibold text-lg hover:shadow-2xl transition flex items-center justify-center space-x-3">
-              <span className="text-2xl">🌐</span>
-              <span>Book on Booking.com</span>
+
+              <a href="https://booking.com" target="_blank" rel="noopener noreferrer" className="bg-[#003580] px-8 py-6 rounded-2xl font-semibold text-lg hover:shadow-2xl hover:scale-105 transition-all duration-300 flex items-center justify-center">
+               <span className="text-white text-2xl font-bold">Booking.com</span>
             </a>
+
           </div>
         </div>
       </section>
+
 
       {/* FOOTER */}
       <footer className="bg-volcanic-900 text-white py-12">
