@@ -423,22 +423,14 @@ export default function LocalePage({ params }: { params: { locale: string } }) {
 
        {/* BOOKING SECTION */}
       <section id="book" className="py-20 lg:py-28 bg-gradient-to-br from-ocean-500 to-ocean-700 text-white">
-        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <span className="text-ocean-100 font-semibold text-sm uppercase tracking-wider">{t.booking.subtitle}</span>
-          <h2 className="font-display text-4xl lg:text-5xl font-bold mt-3 mb-6">{t.booking.title}</h2>
-          <p className="text-xl text-white/90 mb-12 max-w-2xl mx-auto">{t.booking.description}</p>
-          
-          <div className="grid md:grid-cols-2 gap-6 max-w-3xl mx-auto">
-            <a href="https://airbnb.com" target="_blank" rel="noopener noreferrer" className="bg-white px-8 py-6 rounded-2xl font-semibold text-lg hover:shadow-2xl hover:scale-105 transition-all duration-300 flex items-center justify-center">
-              <Image src="/images/logos/airbnb.png" alt="Airbnb" width={160} height={50} className="h-14 w-auto" />
-            </a>
-
-              <a href="https://booking.com" target="_blank" rel="noopener noreferrer" className="bg-[#003580] px-8 py-6 rounded-2xl font-semibold text-lg hover:shadow-2xl hover:scale-105 transition-all duration-300 flex items-center justify-center">
-               <span className="text-white text-2xl font-bold">Booking.com</span>
-            </a>
-
-          </div>
-        </div>
+        <div className="grid md:grid-cols-2 gap-6 max-w-3xl mx-auto">
+  <a href="https://airbnb.com" target="_blank" rel="noopener noreferrer" className="bg-white px-8 py-6 rounded-2xl font-semibold text-lg hover:shadow-2xl hover:scale-105 transition-all duration-300 flex items-center justify-center">
+    <Image src="/images/logos/airbnb.png" alt="Airbnb" width={160} height={50} className="h-14 w-auto" />
+  </a>
+  <a href="https://booking.com" target="_blank" rel="noopener noreferrer" className="bg-[#003580] px-6 py-8 rounded-2xl font-semibold text-lg hover:shadow-2xl hover:scale-105 transition-all duration-300 flex items-center justify-center">
+    <span className="text-white text-3xl font-bold">Booking.com</span>
+  </a>
+</div>
       </section>
 
 
