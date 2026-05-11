@@ -241,6 +241,50 @@ export default function LocalePage({ params }: { params: { locale: string } }) {
           <InteractiveGallery />
         </div>
       </section>
+                  {/* THINGS TO DO SECTION */}
+      <section className="py-20 lg:py-28 bg-gradient-to-b from-sand-50 to-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <span className="text-ocean-600 font-semibold text-sm uppercase tracking-wider">{t.thingsSubtitle}</span>
+            <h2 className="font-display text-4xl lg:text-5xl font-bold text-volcanic-900 mt-3 mb-6">{t.thingsTitle}</h2>
+            <p className="text-xl text-volcanic-600 max-w-3xl mx-auto">{t.thingsDescription}</p>
+          </div>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {t.activities.map((activity: any, index: number) => (
+              <div key={index} className="group bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 border border-sand-200">
+                <div className="aspect-[4/3] relative overflow-hidden">
+                  {activity.badge && (
+                    <span className={`absolute top-4 left-4 ${activity.badgeColor} px-4 py-2 rounded-full text-xs font-bold uppercase tracking-wide z-10 shadow-lg`}>
+                      {activity.badge}
+                    </span>
+                  )}
+                  <Image 
+                    src={activity.image} 
+                    alt={activity.title}
+                    fill
+                    className="object-cover group-hover:scale-110 transition-transform duration-700"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-volcanic-900/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                </div>
+                <div className="p-8">
+                  <h3 className="font-display text-2xl font-bold text-volcanic-900 mb-3 group-hover:text-ocean-600 transition-colors duration-300">{activity.title}</h3>
+                  <p className="text-volcanic-600 leading-relaxed mb-4">{activity.description}</p>
+                  <div className="flex items-center text-ocean-600 font-semibold text-sm">
+                    <svg className="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                    </svg>
+                    {activity.distance}
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+
 
       {/* BLOG SECTION */}
       <section id="blog" className="py-20 lg:py-28 bg-gray-50">
@@ -424,10 +468,10 @@ export default function LocalePage({ params }: { params: { locale: string } }) {
        {/* BOOKING SECTION */}
       <section id="book" className="py-20 lg:py-28 bg-gradient-to-br from-ocean-500 to-ocean-700 text-white">
         <div className="grid md:grid-cols-2 gap-6 max-w-3xl mx-auto">
-  <a href="https://airbnb.com" target="_blank" rel="noopener noreferrer" className="bg-white px-8 py-6 rounded-2xl font-semibold text-lg hover:shadow-2xl hover:scale-105 transition-all duration-300 flex items-center justify-center">
+  <a href="https://airbnb.com" target="_blank" rel="noopener noreferrer" className="bg-white px-6 py-6 rounded-2xl font-semibold text-lg hover:shadow-2xl hover:scale-105 transition-all duration-300 flex items-center justify-center">
     <Image src="/images/logos/airbnb.png" alt="Airbnb" width={160} height={50} className="h-14 w-auto" />
   </a>
-  <a href="https://booking.com" target="_blank" rel="noopener noreferrer" className="bg-[#003580] px-6 py-8 rounded-2xl font-semibold text-lg hover:shadow-2xl hover:scale-105 transition-all duration-300 flex items-center justify-center">
+  <a href="https://booking.com" target="_blank" rel="noopener noreferrer" className="bg-[#003580] px-6 py-6 rounded-2xl font-semibold text-lg hover:shadow-2xl hover:scale-105 transition-all duration-300 flex items-center justify-center">
     <span className="text-white text-3xl font-bold">Booking.com</span>
   </a>
 </div>
